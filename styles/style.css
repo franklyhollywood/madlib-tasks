@@ -21,10 +21,15 @@ h1 {
     width: 400px;
 }
 
-input + input {
+input {
     margin-bottom: 10px;
 }
 
-button.button-madlib {
-    height: 40px;
+input:nth-last-of-type(input) {
+    margin-bottom: 0;
+}
+.button-madlib {
+    height: 60px;
+    font-size: 18px;
+    font-weight: bold;
 }
