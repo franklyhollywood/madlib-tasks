@@ -9,6 +9,7 @@ const input7 = document.getElementById('adjective2');
 const input8 = document.getElementById('verb-in-action');
 const input9 = document.getElementById('verb-in-action2');
 const input10 = document.getElementById('adjective3');
+const input11 = document.getElementById('gender-identity');
 const button = document.getElementById('button-madlib');
 
 const output1 = document.getElementById('span-verb1');
@@ -21,6 +22,7 @@ const output7 = document.getElementById('span-adjective2');
 const output8 = document.getElementById('span-verb-in-action');
 const output9 = document.getElementById('span-verb-in-action2');
 const output10 = document.getElementById('span-adjective3');
+const output11 = document.getElementById('span-gender-identity');
 
 
 // initialize state
@@ -35,6 +37,7 @@ button.addEventListener('click', () => {
     output8.innerHTML = input8.value;
     output9.innerHTML = input9.value;
     output10.innerHTML = input10.value;
+    output11.innerHTML = input11.value;
 });
 
 
