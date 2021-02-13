@@ -1,20 +1,47 @@
+/* Global Styling */
 h1 {
     font-size: 64px;
     margin: 30px 0 20px 0;
 }
 
+h3 {
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.hidden {
+    display: none;
+}
+
+/* Madlibs Styling */
 .flex {
     display: flex;
+}
+
+.flex-advert {
+    justify-content: space-between;
+
+}
+
+.flex-col {
+    flex-direction: column;
 }
 
 .flex-center {
     justify-content: center;
 }
 
+.flex-middle {
+    align-content: center;
+}
+
 .center-text {
     text-align: center;
 }
 
+#madlib-form-container {
+    margin-bottom: 40px;
+}
 .madlib-form {
     display: flex;
     flex-direction: column;
@@ -32,4 +59,24 @@ input:nth-last-of-type(input) {
     height: 60px;
     font-size: 18px;
     font-weight: bold;
+}
+
+h3.title,
+div#big-advert-display > p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.title {
+    padding-bottom: 3px;
+}
+
+#big-advert-display {
+    width: 350px;
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+    padding: 4px 3px;
+}
+
+#bigadvert-text {
+    text-align: justify;
 }
