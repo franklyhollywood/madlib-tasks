@@ -25,9 +25,19 @@ const output10 = document.getElementById('span-adjective3');
 
 // initialize state
 button.addEventListener('click', () => {
-    // result.textContent = add(Number(input1.value), Number(input2.value));
-    
+    output1.innerHTML = input1.value;
+    output2.innerHTML = input2.value;
+    output3.innerHTML = input3.value;
+    output4.innerHTML = input4.value;
+    output5.innerHTML = input5.value;
+    output6.innerHTML = input6.value;
+    output7.innerHTML = input7.value;
+    output8.innerHTML = input8.value;
+    output9.innerHTML = input9.value;
+    output10.innerHTML = input10.value;
 });
+
+
 
 
 // set event listeners to update state and DOM
